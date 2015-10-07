@@ -38,7 +38,7 @@ bool HelloWorld::init()
     
     //PiecesLayer* BGI_Layer = PiecesLayer::create();
     //ReverseLayer* BGI_Layer = ReverseLayer::create();
-    GravityLayer* BGI_Layer = GravityLayer::create();
+    //GravityLayer* BGI_Layer = GravityLayer::create();
     //BlacknWhiteLayer* BGI_Layer = BlacknWhiteLayer::create();
     //BackgroundLayer* BGI_Layer = BackgroundLayer::create();
     //PortalLayer* BGI_Layer = PortalLayer::create();
@@ -47,6 +47,10 @@ bool HelloWorld::init()
     //ContraLayer* BGI_Layer = ContraLayer::create();
     //ContraWithOutBossLayer* BGI_Layer = ContraWithOutBossLayer::create();
     //NoisyLayer* BGI_Layer = NoisyLayer::create();
+    
+    //ElasticDefenseLayer* BGI_Layer = ElasticDefenseLayer::create();
+    //BlackholeLayer* BGI_Layer = BlackholeLayer::create();
+    DemoLayer* BGI_Layer = DemoLayer::create();
     rootNode->addChild(BGI_Layer,1,1);
     
     //Sprite* bg = (Sprite*)rootNode->getChildByTag(10);

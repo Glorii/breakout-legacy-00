@@ -183,7 +183,7 @@ void PiecesLayer::dealCollision( float dur ){
 			Vec2 vec1 = paddleNode->getPosition();
 			Vec2 vec2 = paddleNode->convertToWorldSpace(sp->getPosition());
 
-			 drawNode->drawSegment(vec1, vec2, 3.0f, Color4F(1, 1, 1, 1));
+            drawNode->drawSegment(vec1, vec2, 3.0f, Color4F(1, 1, 1, 1));
 
 			Vec2 normalVec = vec1 - vec2;
 			Vec2 monsterToCentreVec = paddleNode->getPosition() - monster->getPosition();

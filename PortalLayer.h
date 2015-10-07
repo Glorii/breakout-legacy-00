@@ -34,7 +34,7 @@ USING_NS_CC;
 #define BRICK_LENGTH 68
 #define BRICK_GAP 2
 
-//#define  PADDLE_LENGTH 357
+//#define PADDLE_LENGTH 357
 #define CIRCLE_RADIUS 241.5
 
 #define MONSTER_SPEED 9

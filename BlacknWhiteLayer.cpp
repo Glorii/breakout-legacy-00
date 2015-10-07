@@ -147,6 +147,7 @@ void BlacknWhiteLayer::initMonsterBody(){
     if(monster)
     {
         removeChild(monster);
+        
     }
     monster  = NULL;
     

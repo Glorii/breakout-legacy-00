@@ -12,6 +12,9 @@
 #include "ContraWithOutBossLayer.h"
 #include "PiecesLayer.h"
 #include "NoisyLayer.h"
+#include "BlackholeLayer.h"
+#include "ElasticDefenseLayer.h"
+#include "DemoLayer.h"
 
 class HelloWorld : public cocos2d::Scene
 {
